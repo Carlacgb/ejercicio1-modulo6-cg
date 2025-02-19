@@ -3,14 +3,11 @@ const urlsToCache = [
    "/",  // Raíz del sitio
     "/index.html", // Página principal
     "/main.js", // Archivo JS principal
-    "/App.js", // Archivo JS de tu componente App principal
+    "/App.jsx", // Archivo JS de tu componente App principal
     "/App.css", // Archivo CSS de tu componente App principal
     "/icons/icon-192x192.png", // Icono
-    "/Components/views/Home.jsx",
-    "/Components/views/EquipoMedico.jsx",
-    "/Components/views/Citas.jsx",
-    "/Components/Navbar.jsx",
-    "/Components/DoctorCard.jsx",
+    "/data/data.json",
+    "/data/servicios.json"
 ];
 self.addEventListener("install", (event) => {
     event.waitUntil(
