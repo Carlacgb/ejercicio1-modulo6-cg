@@ -6,6 +6,14 @@ Integración de características básicas de una PWA (Progressive Web Applicatio
 
 ### 1. Creación del Manifiesto
 
+Se creó un archivo de manifiesto en la carpeta "public" con el nombre de "manifest.json". Dentro se incluyen los siguientes elementos:
+
+- Nombre de la aplicación.
+- Iconos en varias resoluciones para diferentes dispositivos.
+- Color de fondo y color del tema.
+- Modo de pantalla (fullscreen o standalone).
+
+
 ### 2. Registro de un Service Worker Básico
 
 ### 3. Implementación de Estrategias de Almacenamiento en Caché

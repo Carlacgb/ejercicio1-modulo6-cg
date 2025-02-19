@@ -1,5 +1,17 @@
 const CACHE_NAME = "pwa-cache-v1";
-const urlsToCache = ["/", "/index.html", "/main.jsx", "/App.jsx", "/icons/icon-192x192.png"];
+const urlsToCache = [
+   "/",  // Raíz del sitio
+    "/index.html", // Página principal
+    "/main.js", // Archivo JS principal
+    "/App.js", // Archivo JS de tu componente App principal
+    "/App.css", // Archivo CSS de tu componente App principal
+    "/icons/icon-192x192.png", // Icono
+    "/Components/views/Home.jsx",
+    "/Components/views/EquipoMedico.jsx",
+    "/Components/views/Citas.jsx",
+    "/Components/Navbar.jsx",
+    "/Components/DoctorCard.jsx",
+];
 self.addEventListener("install", (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
