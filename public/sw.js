@@ -6,8 +6,6 @@ const urlsToCache = [
     "/App.jsx", // Archivo JS de tu componente App principal
     "/App.css", // Archivo CSS de tu componente App principal
     "/icons/icon-192x192.png", // Icono
-    "/data/data.json",
-    "/data/servicios.json"
 ];
 self.addEventListener("install", (event) => {
     event.waitUntil(
