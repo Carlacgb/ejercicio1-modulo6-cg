@@ -15,9 +15,16 @@ Se creó un archivo de manifiesto en la carpeta "public" con el nombre de "manif
 
 
 ### 2. Registro de un Service Worker Básico
+Se crea el archivo service worker en la carpeta public "sw.js" se incluyen los componentes con los archivos principales.
 
 ### 3. Implementación de Estrategias de Almacenamiento en Caché
+Se implementa el Stale-While-Revalidate en el archivo sw.js
 
 ### 4. Pruebas de Funcionamiento Offline y Validación con Lighthouse
+Se realiza pruebas de funcionamiento en modo offline y validación en Lighthouse
+- Performance 56
+- Accesibilidad 98
+- Buenas prácticas 96 
+- SEO 83
 
 
